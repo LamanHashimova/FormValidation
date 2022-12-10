@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.ana.co.jp/www2/plan-book/where-we-travel/paris/paris-01.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+Form p {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+form {
+    width: 33%;
+    margin: 5rem;
+    background-image: linear-gradient(#E8CBC0, #636FA4);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 0.7rem;
+    outline: none;
+    border: 1px solid gray;
+
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+
+.firstPass {
+    position: relative;
+}
+
+.password i {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+form div {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+form .error {
+    position: absolute;
+    left: 0;
+    top: 3rem;
+    font-size: 0.8rem;
+    color: red;
+    display: none;
+}
+
+.error.active {
+    display: block;
+}
+
+form .btn {
+    width: 100%;
+    padding: 0.5rem;
+    cursor: pointer;
+    border: none;
+    background-color: lightblue;
+    margin-top: 1rem;
+
+    font-weight: bold;
+
+}
+
+.errorBorder {
+    box-shadow: 0px 0px 1px 1px red;
+}
+
+.greenBorder {
+    box-shadow: 0px 0px 1px 1px green;
+}
+
+.btn:hover {
+    background-color: rgb(150, 199, 150);
+}
